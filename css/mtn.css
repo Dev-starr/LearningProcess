@@ -1,0 +1,42 @@
+.header{
+    gap: 30px;
+}
+
+.head p::after{
+    content: ' ';
+    width: 10%;
+    display: block;
+    margin-left: 45%;
+    height: 2px;
+    background-color: orange;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.head span{
+    color: orange;
+}
+
+.content{
+    border: 1px solid rgba(182, 181, 181, 0.547);
+}
+
+.content i{
+    border: 1px solid orange;
+    border-radius: 30px;
+    background-color: rgb(254, 175, 27);
+    padding: 8px;
+    color: white;
+}
+
+.arrow{
+    border: 1px solid orange;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+    background-color: orange;
+    position: fixed;
+    bottom: 30px;
+    right: 12px;
+}
